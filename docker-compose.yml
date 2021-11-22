@@ -1,4 +1,7 @@
 version: '3.8'
 services:
   ubuntu:
-    image: ubuntu 
+    image: docker.io/ubuntu 
+    restart: always
+    container_name: ubuntu-aman
+    command: bash
